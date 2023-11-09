@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.container{
+    margin: 100px auto;
+    width: 400px;
+    height: 50vh;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    pointer-events: none;
+}
+.colorBox{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(174, 171, 171);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.colorBox:hover{
+    transform: scale(1.1);
+}
+.addGray{
+    background-color: rgb(174, 171, 171) !important;
+    /* background-color: gray; */
+}
+/* 
+#start,#res{
+
+} */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+}
